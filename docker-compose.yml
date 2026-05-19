@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: techzara-website-app
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    networks:
+      - techzara-net
+
+networks:
+  techzara-net:
+    driver: bridge

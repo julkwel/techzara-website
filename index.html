@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Techzara Madagascar — A vibrant community for Tech, Development, DevOps, AI, and System Administration professionals across Madagascar." />
+  <meta property="og:title" content="Techzara Madagascar" />
+  <meta property="og:description" content="Join the leading tech community in Madagascar. Connect, learn, and build together." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Techzara Madagascar — Tech Community</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+  <!-- ─── Navigation ──────────────────────────────────── -->
+  <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="#" class="nav__logo" aria-label="Techzara Madagascar home">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu9t4cOwNZzWW3LLxd7iTWdtNjAwdd9IUUoA&s"
+            alt="Techzara Madagascar logo"
+            class="nav__logo-img"
+            width="40"
+            height="40"
+          />
+          <span class="nav__logo-text">Techzara<span>MG</span></span>
+        </a>
+
+        <ul class="nav__links" role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#domains">Domains</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#members">Members</a></li>
+          <li><a href="#articles">Articles</a></li>
+        </ul>
+
+        <div class="nav__cta">
+          <a href="#" class="btn btn--ghost">Sign in</a>
+          <a href="#join" class="btn btn--primary">Join Community</a>
+        </div>
+
+        <button
+          class="nav__hamburger"
+          id="hamburger-btn"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="nav__mobile" id="mobile-menu" role="menu" aria-hidden="true">
+      <a href="#about"   role="menuitem">About</a>
+      <a href="#domains" role="menuitem">Domains</a>
+      <a href="#events"  role="menuitem">Events</a>
+      <a href="#members" role="menuitem">Members</a>
+      <a href="#articles" role="menuitem">Articles</a>
+      <a href="#" class="btn btn--ghost" role="menuitem">Sign in</a>
+      <a href="#join" class="btn btn--primary" role="menuitem">Join Community</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ─── Hero ──────────────────────────────────────── -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__glow-1"></div>
+        <div class="hero__glow-2"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero__content">
+
+          <div class="hero__text animate-fade-up">
+            <div class="hero__eyebrow">
+              <div class="hero__pulse" aria-hidden="true">
+                <div class="hero__pulse-dot"></div>
+                <div class="hero__pulse-ring"></div>
+              </div>
+              <span class="badge badge--accent">Community Active</span>
+              <span class="badge badge--blue">Madagascar</span>
+            </div>
+
+            <h1 class="hero__title" id="hero-title">
+              The Home of
+              <br />
+              <span class="hero__title-gradient">Malagasy Tech</span>
+              <br />
+              Innovators
+            </h1>
+
+            <p class="hero__subtitle">
+              Techzara Madagascar unites developers, DevOps engineers, AI researchers,
+              sysadmins, and tech leaders across Madagascar. Learn, build, and grow — together.
+            </p>
+
+            <div class="hero__actions">
+              <a href="#join" class="btn btn--primary btn--lg">
+                Join the Community
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#events" class="btn btn--outline btn--lg">
+                View Events
+              </a>
+            </div>
+
+            <div class="hero__stats">
+              <div>
+                <div class="hero__stat-value">500+</div>
+                <div class="hero__stat-label">Members</div>
+              </div>
+              <div>
+                <div class="hero__stat-value">80+</div>
+                <div class="hero__stat-label">Events</div>
+              </div>
+              <div>
+                <div class="hero__stat-value">12+</div>
+                <div class="hero__stat-label">Specialties</div>
+              </div>
+              <div>
+                <div class="hero__stat-value">3+</div>
+                <div class="hero__stat-label">Years Active</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual animate-fade-up delay-2">
+            <div class="hero__card-cluster">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu9t4cOwNZzWW3LLxd7iTWdtNjAwdd9IUUoA&s"
+                alt="Techzara Madagascar"
+                class="hero__logo-main"
+                width="120"
+                height="120"
+              />
+
+              <div class="hero__mini-card" role="article">
+                <div class="hero__mini-icon hero__mini-icon--green" aria-hidden="true">💻</div>
+                <div>
+                  <div class="hero__mini-info-title">Software Development</div>
+                  <div class="hero__mini-info-sub">Web · Mobile · Open Source</div>
+                </div>
+              </div>
+
+              <div class="hero__mini-card" role="article">
+                <div class="hero__mini-icon hero__mini-icon--blue" aria-hidden="true">⚙️</div>
+                <div>
+                  <div class="hero__mini-info-title">DevOps & Infrastructure</div>
+                  <div class="hero__mini-info-sub">CI/CD · Cloud · Kubernetes</div>
+                </div>
+              </div>
+
+              <div class="hero__mini-card" role="article">
+                <div class="hero__mini-icon hero__mini-icon--amber" aria-hidden="true">🤖</div>
+                <div>
+                  <div class="hero__mini-info-title">AI & Data Science</div>
+                  <div class="hero__mini-info-sub">ML · NLP · Computer Vision</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Stats Bar ──────────────────────────────────── -->
+    <section class="stats-bar" aria-label="Community statistics">
+      <div class="container">
+        <div class="stats-bar__grid">
+          <div class="stats-bar__item">
+            <div class="stats-bar__value">500<span>+</span></div>
+            <div class="stats-bar__label">Active Members</div>
+          </div>
+          <div class="stats-bar__item">
+            <div class="stats-bar__value">80<span>+</span></div>
+            <div class="stats-bar__label">Events Held</div>
+          </div>
+          <div class="stats-bar__item">
+            <div class="stats-bar__value">30<span>+</span></div>
+            <div class="stats-bar__label">Projects Built</div>
+          </div>
+          <div class="stats-bar__item">
+            <div class="stats-bar__value">12<span>+</span></div>
+            <div class="stats-bar__label">Tech Domains</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── About / Mission ────────────────────────────── -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="mission">
+          <div class="mission__visual">
+            <div class="mission__logo-wrap">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu9t4cOwNZzWW3LLxd7iTWdtNjAwdd9IUUoA&s"
+                alt="Techzara Madagascar logo"
+                class="mission__logo-circle"
+                width="100"
+                height="100"
+              />
+            </div>
+            <div class="mission__domain-pills">
+              <span class="mission__pill">Software Dev</span>
+              <span class="mission__pill">DevOps</span>
+              <span class="mission__pill">SysAdmin</span>
+              <span class="mission__pill">AI / ML</span>
+              <span class="mission__pill">Data Science</span>
+              <span class="mission__pill">Cybersecurity</span>
+              <span class="mission__pill">Cloud</span>
+              <span class="mission__pill">Embedded</span>
+              <span class="mission__pill">Blockchain</span>
+              <span class="mission__pill">UX Design</span>
+            </div>
+          </div>
+
+          <div class="mission__text">
+            <div class="section__eyebrow">
+              <span class="badge badge--accent">Our Mission</span>
+            </div>
+            <h2 class="section__title" id="about-title">
+              Built for the Malagasy Tech Ecosystem
+            </h2>
+            <p class="section__desc">
+              Techzara Madagascar was founded to create a space where tech enthusiasts,
+              students, professionals, and entrepreneurs across Madagascar can connect,
+              collaborate, and collectively push the boundaries of what is possible
+              in our region's technology landscape.
+            </p>
+
+            <div class="mission__values">
+              <div class="mission__value">
+                <div class="mission__value-icon">🤝</div>
+                <div class="mission__value-title">Community First</div>
+                <div class="mission__value-desc">No gatekeeping — every level is welcome here.</div>
+              </div>
+              <div class="mission__value">
+                <div class="mission__value-icon">🌍</div>
+                <div class="mission__value-title">Local Impact</div>
+                <div class="mission__value-desc">Building tech solutions for Madagascar's needs.</div>
+              </div>
+              <div class="mission__value">
+                <div class="mission__value-icon">📚</div>
+                <div class="mission__value-title">Continuous Learning</div>
+                <div class="mission__value-desc">Workshops, talks, and mentorship programs.</div>
+              </div>
+              <div class="mission__value">
+                <div class="mission__value-icon">🚀</div>
+                <div class="mission__value-title">Open Innovation</div>
+                <div class="mission__value-desc">Open source, open minds, open collaboration.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Domains / Features ─────────────────────────── -->
+    <section class="section section--dark" id="domains" aria-labelledby="domains-title">
+      <div class="container">
+        <header class="section__header">
+          <div class="section__eyebrow">
+            <span class="badge badge--blue">Expertise Areas</span>
+          </div>
+          <h2 class="section__title" id="domains-title">One Community, Many Domains</h2>
+          <p class="section__desc">
+            Whether you build apps, manage infrastructure, train models, or secure systems —
+            there is a place for you at Techzara.
+          </p>
+        </header>
+
+        <div class="domains__grid">
+          <article class="domain-card">
+            <div class="domain-card__icon" style="background: rgba(16,185,129,0.12);" aria-hidden="true">💻</div>
+            <div>
+              <h3 class="domain-card__title">Software Development</h3>
+              <p class="domain-card__desc">Web, mobile, and backend development. From REST APIs to full-stack applications, our devs ship it.</p>
+              <span class="domain-card__tag">Dev · Web · Mobile</span>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <div class="domain-card__icon" style="background: rgba(59,130,246,0.12);" aria-hidden="true">⚙️</div>
+            <div>
+              <h3 class="domain-card__title">DevOps & CI/CD</h3>
+              <p class="domain-card__desc">Automation, containerisation, cloud deployments, and infrastructure as code with modern toolchains.</p>
+              <span class="domain-card__tag">Docker · K8s · Terraform</span>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <div class="domain-card__icon" style="background: rgba(245,158,11,0.12);" aria-hidden="true">🤖</div>
+            <div>
+              <h3 class="domain-card__title">Artificial Intelligence</h3>
+              <p class="domain-card__desc">Machine learning, NLP, computer vision, and LLM applications with practical use cases.</p>
+              <span class="domain-card__tag">ML · NLP · LLM</span>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <div class="domain-card__icon" style="background: rgba(168,85,247,0.12);" aria-hidden="true">🖥️</div>
+            <div>
+              <h3 class="domain-card__title">System Administration</h3>
+              <p class="domain-card__desc">Linux, networking, server management, and enterprise infrastructure maintenance and monitoring.</p>
+              <span class="domain-card__tag">Linux · Network · Monitoring</span>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <div class="domain-card__icon" style="background: rgba(239,68,68,0.12);" aria-hidden="true">🔒</div>
+            <div>
+              <h3 class="domain-card__title">Cybersecurity</h3>
+              <p class="domain-card__desc">Penetration testing, threat analysis, secure architecture, and security-first development practices.</p>
+              <span class="domain-card__tag">SecOps · Pen Testing</span>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <div class="domain-card__icon" style="background: rgba(16,185,129,0.08);" aria-hidden="true">📊</div>
+            <div>
+              <h3 class="domain-card__title">Data Science</h3>
+              <p class="domain-card__desc">Data engineering, analytics, visualization, and driving business decisions with actionable insights.</p>
+              <span class="domain-card__tag">Python · SQL · Analytics</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Events ─────────────────────────────────────── -->
+    <section class="section" id="events" aria-labelledby="events-title">
+      <div class="container">
+        <header class="section__header">
+          <div class="section__eyebrow">
+            <span class="badge badge--amber">Upcoming Events</span>
+          </div>
+          <h2 class="section__title" id="events-title">Meetups, Workshops & Talks</h2>
+          <p class="section__desc">
+            Hands-on sessions, expert talks, and networking opportunities — happening regularly across Antananarivo and beyond.
+          </p>
+        </header>
+
+        <div class="events__grid">
+          <article class="event-card">
+            <div class="event-card__header">
+              <div class="event-card__date" aria-label="June 7">
+                <div class="event-card__date-month">Jun</div>
+                <div class="event-card__date-day">07</div>
+              </div>
+              <div class="event-card__type">
+                <span class="badge badge--accent">Workshop</span>
+                <h3 class="event-card__title">Building AI Apps with Python & LangChain</h3>
+              </div>
+            </div>
+            <div class="event-card__meta">
+              <span class="event-card__meta-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Antananarivo, Tana Waterfront
+              </span>
+              <span class="event-card__meta-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                14:00 – 17:00
+              </span>
+            </div>
+            <div class="event-card__footer">
+              <span class="event-card__spots">
+                <strong>24</strong> / 40 spots left
+              </span>
+              <a href="#" class="btn btn--primary" aria-label="Register for Building AI Apps workshop">Register</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-card__header">
+              <div class="event-card__date" aria-label="June 14">
+                <div class="event-card__date-month">Jun</div>
+                <div class="event-card__date-day">14</div>
+              </div>
+              <div class="event-card__type">
+                <span class="badge badge--blue">Meetup</span>
+                <h3 class="event-card__title">Monthly Tech Meetup #28 — DevOps Edition</h3>
+              </div>
+            </div>
+            <div class="event-card__meta">
+              <span class="event-card__meta-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Andrainarivo, Campus Numerique
+              </span>
+              <span class="event-card__meta-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                18:00 – 21:00
+              </span>
+            </div>
+            <div class="event-card__footer">
+              <span class="event-card__spots">
+                <strong>11</strong> / 60 spots left
+              </span>
+              <a href="#" class="btn btn--primary" aria-label="Register for Monthly Tech Meetup">Register</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-card__header">
+              <div class="event-card__date" aria-label="June 21">
+                <div class="event-card__date-month">Jun</div>
+                <div class="event-card__date-day">21</div>
+              </div>
+              <div class="event-card__type">
+                <span class="badge badge--amber">Talk</span>
+                <h3 class="event-card__title">Kubernetes in Production: Lessons Learned</h3>
+              </div>
+            </div>
+            <div class="event-card__meta">
+              <span class="event-card__meta-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                Online — Zoom
+              </span>
+              <span class="event-card__meta-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                10:00 – 11:30
+              </span>
+            </div>
+            <div class="event-card__footer">
+              <span class="event-card__spots">
+                <strong>Free</strong> entry
+              </span>
+              <a href="#" class="btn btn--primary" aria-label="Register for Kubernetes talk">Register</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-card__header">
+              <div class="event-card__date" aria-label="July 5">
+                <div class="event-card__date-month">Jul</div>
+                <div class="event-card__date-day">05</div>
+              </div>
+              <div class="event-card__type">
+                <span class="badge badge--accent">Hackathon</span>
+                <h3 class="event-card__title">TechHack MG 2026 — Open Innovation</h3>
+              </div>
+            </div>
+            <div class="event-card__meta">
+              <span class="event-card__meta-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Antananarivo, HJKM
+              </span>
+              <span class="event-card__meta-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                48-hour event
+              </span>
+            </div>
+            <div class="event-card__footer">
+              <span class="event-card__spots">
+                <strong>Registrations open</strong>
+              </span>
+              <a href="#" class="btn btn--primary" aria-label="Register for TechHack MG 2026">Register</a>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="#" class="btn btn--outline btn--lg">View All Events</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Featured Members ───────────────────────────── -->
+    <section class="section section--dark" id="members" aria-labelledby="members-title">
+      <div class="container">
+        <header class="section__header">
+          <div class="section__eyebrow">
+            <span class="badge badge--blue">Community</span>
+          </div>
+          <h2 class="section__title" id="members-title">Meet Our Members</h2>
+          <p class="section__desc">
+            Engineers, researchers, and leaders from across Madagascar shaping the future of tech.
+          </p>
+        </header>
+
+        <div class="members__filter" role="group" aria-label="Filter members by specialty">
+          <button class="filter-btn active" aria-pressed="true">All</button>
+          <button class="filter-btn" aria-pressed="false">Dev</button>
+          <button class="filter-btn" aria-pressed="false">DevOps</button>
+          <button class="filter-btn" aria-pressed="false">AI / ML</button>
+          <button class="filter-btn" aria-pressed="false">SysAdmin</button>
+          <button class="filter-btn" aria-pressed="false">Security</button>
+        </div>
+
+        <div class="members__grid">
+          <article class="member-card">
+            <div class="member-card__avatar" aria-hidden="true">RN</div>
+            <h3 class="member-card__name">Ravo Niaina</h3>
+            <p class="member-card__role">Full-Stack Developer</p>
+            <div class="member-card__tags">
+              <span class="member-card__tag">React</span>
+              <span class="member-card__tag">Node.js</span>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <div class="member-card__avatar" style="background: linear-gradient(135deg, #7C3AED, #DB2777);" aria-hidden="true">SF</div>
+            <h3 class="member-card__name">Soa Fitiavana</h3>
+            <p class="member-card__role">AI / ML Engineer</p>
+            <div class="member-card__tags">
+              <span class="member-card__tag">Python</span>
+              <span class="member-card__tag">LLM</span>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <div class="member-card__avatar" style="background: linear-gradient(135deg, #0891B2, #0F766E);" aria-hidden="true">JA</div>
+            <h3 class="member-card__name">Jean Andrianasy</h3>
+            <p class="member-card__role">DevOps Engineer</p>
+            <div class="member-card__tags">
+              <span class="member-card__tag">K8s</span>
+              <span class="member-card__tag">Terraform</span>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <div class="member-card__avatar" style="background: linear-gradient(135deg, #DC2626, #EA580C);" aria-hidden="true">MR</div>
+            <h3 class="member-card__name">Marie Rakoto</h3>
+            <p class="member-card__role">Cybersecurity Analyst</p>
+            <div class="member-card__tags">
+              <span class="member-card__tag">SecOps</span>
+              <span class="member-card__tag">Pentest</span>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <div class="member-card__avatar" style="background: linear-gradient(135deg, #0F766E, #16A34A);" aria-hidden="true">TR</div>
+            <h3 class="member-card__name">Tojo Razafy</h3>
+            <p class="member-card__role">Data Engineer</p>
+            <div class="member-card__tags">
+              <span class="member-card__tag">SQL</span>
+              <span class="member-card__tag">Spark</span>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <div class="member-card__avatar" style="background: linear-gradient(135deg, #7C3AED, #4F46E5);" aria-hidden="true">LR</div>
+            <h3 class="member-card__name">Lalaina Rabe</h3>
+            <p class="member-card__role">SysAdmin / Cloud</p>
+            <div class="member-card__tags">
+              <span class="member-card__tag">Linux</span>
+              <span class="member-card__tag">AWS</span>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <div class="member-card__avatar" style="background: linear-gradient(135deg, #B45309, #D97706);" aria-hidden="true">HF</div>
+            <h3 class="member-card__name">Haja Faniry</h3>
+            <p class="member-card__role">Mobile Developer</p>
+            <div class="member-card__tags">
+              <span class="member-card__tag">Flutter</span>
+              <span class="member-card__tag">Dart</span>
+            </div>
+          </article>
+
+          <article class="member-card">
+            <div class="member-card__avatar" style="background: linear-gradient(135deg, #1D4ED8, #6D28D9);" aria-hidden="true">VN</div>
+            <h3 class="member-card__name">Vola Ndriana</h3>
+            <p class="member-card__role">UX Designer & Dev</p>
+            <div class="member-card__tags">
+              <span class="member-card__tag">Figma</span>
+              <span class="member-card__tag">CSS</span>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="#" class="btn btn--outline btn--lg">Explore All Members</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Articles / Blog ────────────────────────────── -->
+    <section class="section" id="articles" aria-labelledby="articles-title">
+      <div class="container">
+        <header class="section__header">
+          <div class="section__eyebrow">
+            <span class="badge badge--accent">Community Articles</span>
+          </div>
+          <h2 class="section__title" id="articles-title">Knowledge Shared by Members</h2>
+          <p class="section__desc">
+            Practical tutorials, deep dives, and tech perspectives written by the Techzara community.
+          </p>
+        </header>
+
+        <div class="articles__grid">
+          <article class="article-card">
+            <div class="article-card__thumb" aria-hidden="true">🐳</div>
+            <div class="article-card__body">
+              <div class="article-card__meta">
+                <span class="badge badge--blue" style="font-size:0.68rem; padding: 0.2rem 0.6rem;">DevOps</span>
+                <span>8 min read</span>
+              </div>
+              <h3 class="article-card__title">Docker Compose for Production: What Nobody Tells You</h3>
+              <p class="article-card__excerpt">
+                Beyond the basics — secrets management, health checks, rolling restarts, and production gotchas learned the hard way.
+              </p>
+              <div class="article-card__footer">
+                <span>By Jean Andrianasy</span>
+                <a href="#" class="article-card__read-more" aria-label="Read Docker Compose article">
+                  Read more
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-card__thumb" aria-hidden="true">🧠</div>
+            <div class="article-card__body">
+              <div class="article-card__meta">
+                <span class="badge badge--amber" style="font-size:0.68rem; padding: 0.2rem 0.6rem;">AI / ML</span>
+                <span>12 min read</span>
+              </div>
+              <h3 class="article-card__title">Fine-Tuning LLMs on Malagasy Language Datasets</h3>
+              <p class="article-card__excerpt">
+                A practical guide to gathering, cleaning, and using Malagasy text corpora to train small but capable language models.
+              </p>
+              <div class="article-card__footer">
+                <span>By Soa Fitiavana</span>
+                <a href="#" class="article-card__read-more" aria-label="Read LLM fine-tuning article">
+                  Read more
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-card__thumb" aria-hidden="true">⚡</div>
+            <div class="article-card__body">
+              <div class="article-card__meta">
+                <span class="badge badge--accent" style="font-size:0.68rem; padding: 0.2rem 0.6rem;">Web Dev</span>
+                <span>6 min read</span>
+              </div>
+              <h3 class="article-card__title">Next.js App Router: From Pages to RSC in a Weekend</h3>
+              <p class="article-card__excerpt">
+                Migrating a real-world Next.js app to the App Router — pitfalls, wins, and the mental model shift required.
+              </p>
+              <div class="article-card__footer">
+                <span>By Ravo Niaina</span>
+                <a href="#" class="article-card__read-more" aria-label="Read Next.js migration article">
+                  Read more
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="#" class="btn btn--outline btn--lg">Read All Articles</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Join CTA ───────────────────────────────────── -->
+    <section class="join" id="join" aria-labelledby="join-title">
+      <div class="container">
+        <div class="join__content">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu9t4cOwNZzWW3LLxd7iTWdtNjAwdd9IUUoA&s"
+            alt="Techzara Madagascar"
+            class="join__logo"
+            width="72"
+            height="72"
+          />
+          <h2 class="join__title" id="join-title">
+            Ready to Join the<br />
+            <span style="color: var(--color-accent);">Techzara Community?</span>
+          </h2>
+          <p class="join__desc">
+            Connect with hundreds of passionate tech professionals across Madagascar.
+            Free to join. No experience limit. Just bring your curiosity.
+          </p>
+          <div class="join__actions">
+            <a href="#" class="btn btn--primary btn--lg">Create Free Account</a>
+            <a href="#" class="btn btn--ghost btn--lg">Learn More</a>
+          </div>
+          <div class="join__social" aria-label="Follow us on social media">
+            <a href="#" class="join__social-link" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+            <a href="#" class="join__social-link" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="join__social-link" aria-label="Twitter / X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="join__social-link" aria-label="Telegram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── Footer ─────────────────────────────────────── -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu9t4cOwNZzWW3LLxd7iTWdtNjAwdd9IUUoA&s"
+              alt="Techzara Madagascar"
+              class="footer__brand-img"
+              width="36"
+              height="36"
+            />
+            <span class="footer__brand-name">Techzara<span>MG</span></span>
+          </div>
+          <p class="footer__brand-desc">
+            The home of Madagascar's tech community — connecting developers, engineers,
+            and innovators across the island.
+          </p>
+        </div>
+
+        <nav aria-label="Community links">
+          <p class="footer__col-title">Community</p>
+          <ul class="footer__links" role="list">
+            <li><a href="#members">Members Directory</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Forum</a></li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Organization links">
+          <p class="footer__col-title">Organization</p>
+          <ul class="footer__links" role="list">
+            <li><a href="#about">About Techzara</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Resources and legal links">
+          <p class="footer__col-title">Resources</p>
+          <ul class="footer__links" role="list">
+            <li><a href="#">Code of Conduct</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Open Source</a></li>
+            <li><a href="#">RSS Feed</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 <span>Techzara Madagascar</span>. All rights reserved.</p>
+        <p>Built with passion in Madagascar 🇲🇬</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
