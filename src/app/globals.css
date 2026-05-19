@@ -1,7 +1,7 @@
 /* ========= TECHZARA — DESIGN TOKENS ========= */
 :root {
-  --font-sans: 'Space Grotesk', system-ui, -apple-system, sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-sans: var(--font-space-grotesk), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
 
   /* Brand — derived from logo */
   --brand-cyan: #00b4e4;
@@ -863,6 +863,31 @@ footer {
 .foot-wm em {
   font-style: italic;
   -webkit-text-stroke: 1px var(--accent);
+}
+
+/* ========= FOOTER BRAND ========= */
+.footer__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+/* ========= MISSION ========= */
+.mission__text {
+  color: var(--fg-soft);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ========= STATS BAR ========= */
+.stats-bar__item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 /* small utility */
