@@ -1,18 +1,7 @@
-FROM nginx:stable-alpine
+FROM cgr.dev/chainguard/nginx:latest
 
-# Patch Alpine base packages to eliminate known CVEs
-RUN apk upgrade --no-cache
-
-# Remove default nginx static content
-RUN rm -rf /usr/share/nginx/html/*
-
-# Copy site files
-COPY index.html /usr/share/nginx/html/index.html
-COPY assets/ /usr/share/nginx/html/assets/
-
-# Custom nginx config for clean static serving
+COPY --chown=nginx:nginx index.html /usr/share/nginx/html/index.html
+COPY --chown=nginx:nginx assets/ /usr/share/nginx/html/assets/
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 8080
