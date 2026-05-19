@@ -1,4 +1,7 @@
-FROM nginx:1.27-alpine
+FROM nginx:stable-alpine
+
+# Patch Alpine base packages to eliminate known CVEs
+RUN apk upgrade --no-cache
 
 # Remove default nginx static content
 RUN rm -rf /usr/share/nginx/html/*
