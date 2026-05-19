@@ -192,7 +192,6 @@ export default function Nav() {
           <a href="#about">{t.nav.about}</a>
           <a href="#events">{t.nav.events}</a>
           <a href="#sharing">{t.nav.sharing}</a>
-          <a href="#community">{t.nav.community}</a>
           <a href="#contact">{t.nav.contact}</a>
         </nav>
 
@@ -281,9 +280,6 @@ export default function Nav() {
         </a>
         <a href="#sharing" onClick={() => setMenuOpen(false)}>
           {t.nav.sharing}
-        </a>
-        <a href="#community" onClick={() => setMenuOpen(false)}>
-          {t.nav.community}
         </a>
         <a href="#contact" onClick={() => setMenuOpen(false)}>
           {t.nav.contact}

@@ -176,7 +176,7 @@ const STRINGS: AllStrings = {
       sub_d: "live",
       sub_e: " and ",
       sub_f: "share",
-      sub_g: " — from undergrads to senior engineers, from Antananarivo to Toamasina.",
+      sub_g: " — from undergrads to senior engineers, from Antananarivo to Fianarantsoa.",
       cta_primary: "Get involved",
       cta_secondary: "Explore our events",
       stats: [
@@ -321,7 +321,7 @@ const STRINGS: AllStrings = {
       sub_d: "vivons",
       sub_e: " et ",
       sub_f: "partageons",
-      sub_g: " — de l'étudiant débutant à l'ingénieur confirmé, d'Antananarivo à Toamasina.",
+      sub_g: " — de l'étudiant débutant à l'ingénieur confirmé, d'Antananarivo à Fianarantsoa.",
       cta_primary: "Nous rejoindre",
       cta_secondary: "Voir nos événements",
       stats: [
