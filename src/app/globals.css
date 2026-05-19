@@ -182,8 +182,8 @@ img { display: block; max-width: 100%; }
 @media (max-width: 880px) {
   .nav-links { display: none; }
   .menu-btn { display: inline-flex; }
-  .nav-join { display: none; }
-  .nav-theme-desktop { display: none; }
+  .nav-join { display: none !important; }
+  .nav-theme-desktop { display: none !important; }
 
   .floating-theme-btn {
     display: inline-flex;

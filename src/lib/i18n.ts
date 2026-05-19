@@ -168,7 +168,7 @@ const STRINGS: AllStrings = {
     },
     hero: {
       pill_tag: "v2026",
-      pill_text: "Hackathon Inter-Universitaire — Registrations open",
+      pill_text: "Hackathon Inter-Universitaire — Registrations closed",
       tagline_words: ["Mandray.", "Mivelona.", "Mizara."],
       sub_a: "A community in Madagascar for everyone who lives and breathes tech. We ",
       sub_b: "receive",
@@ -313,7 +313,7 @@ const STRINGS: AllStrings = {
     },
     hero: {
       pill_tag: "v2026",
-      pill_text: "Hackathon Inter-Universitaire — Inscriptions ouvertes",
+      pill_text: "Hackathon Inter-Universitaire — Inscriptions fermées",
       tagline_words: ["Mandray.", "Mivelona.", "Mizara."],
       sub_a: "Une communauté à Madagascar pour tous les passionnés de tech. Nous ",
       sub_b: "recevons",
