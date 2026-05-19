@@ -163,6 +163,15 @@ export default function Nav() {
   }, []);
 
   return (
+    <>
+    <button
+      className="floating-theme-btn"
+      onClick={toggle}
+      aria-label="Toggle theme"
+    >
+      {theme === "dark" ? <IconSun /> : <IconMoon />}
+      <span>{theme === "dark" ? "Light" : "Dark"}</span>
+    </button>
     <header className="nav">
       <div className="wrap nav-inner">
         <a href="#top" className="brand" onClick={() => setMenuOpen(false)}>
@@ -235,7 +244,7 @@ export default function Nav() {
           </div>
 
           <button
-            className="icon-btn"
+            className="icon-btn nav-theme-desktop"
             onClick={toggle}
             aria-label="Toggle theme"
           >
@@ -244,7 +253,7 @@ export default function Nav() {
 
           <a
             href="#contact"
-            className="btn btn-primary"
+            className="btn btn-primary nav-join"
             style={{ height: 38, padding: "0 16px", fontSize: 13.5 }}
           >
             {t.nav.join}
@@ -281,5 +290,6 @@ export default function Nav() {
         </a>
       </div>
     </header>
+    </>
   );
 }

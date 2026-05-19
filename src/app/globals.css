@@ -174,9 +174,41 @@ img { display: block; max-width: 100%; }
 
 .menu-btn { display: none; }
 
+/* Floating theme toggle — mobile only */
+.floating-theme-btn {
+  display: none;
+}
+
 @media (max-width: 880px) {
   .nav-links { display: none; }
   .menu-btn { display: inline-flex; }
+  .nav-join { display: none; }
+  .nav-theme-desktop { display: none; }
+
+  .floating-theme-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 200;
+    padding: 0 20px;
+    height: 44px;
+    border-radius: 999px;
+    background: var(--bg-elev);
+    border: 1px solid var(--border-strong);
+    box-shadow: var(--shadow);
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--fg);
+    white-space: nowrap;
+    transition: transform 160ms ease, box-shadow 160ms ease;
+  }
+  .floating-theme-btn:active {
+    transform: translateX(-50%) scale(0.96);
+  }
 }
 
 .mobile-menu {
